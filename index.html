@@ -28,12 +28,6 @@ header{
 	width: 1300px;
 	height: 150px;
 	border: 0px solid #bbbbbb;
-	position:fixed;
-	top:0;
-	background: #ffffff;
-
-	
-
 }
 nav{
 
@@ -167,6 +161,18 @@ footer{
 	transition: transform 1s;
 
 }
+	
+#h.pos{
+	position:fixed;
+	top:0;
+	background: #ffffff;
+}
+	
+#n.pos{
+	position:fixed;
+	top:0;
+	padding-top:60px;
+}
 #address{
 
 	float: left;
@@ -191,7 +197,7 @@ footer{
 
 <body id="page">
 
-<header>
+<header id="h.pos">
 
  <div id="logo">
 	<img src="./img/cdc01.png">
@@ -203,7 +209,7 @@ footer{
 	
 </header>
 <div class="clear"></div>
-<nav>
+<nav id="n.pos">
 	<ul>
 		<li> <a href="./id.html"> 감염병 </a></li>
 		<li> 건강정책 </li>
